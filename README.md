@@ -2,7 +2,7 @@
   <img
     width="150"
     height="150"
-    src="https://github.com/itsflameee/zeliboba/blob/main/%D0%B7%D0%B5%D0%BBi%D0%B1%D0%BE%D0%B1%D0%B0.png?raw=true"
+    src="https://github.com/itsflameee/zeliboba/blob/main/zelya.png?raw=true"
     alt="Logo"
     style="border-radius: 50%;"
 >
