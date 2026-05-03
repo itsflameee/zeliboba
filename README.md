@@ -112,6 +112,7 @@ alias zeliboba='/home/USERNAME/.local/bin/zeliboba/pig_control.sh'
 # Чтобы система видела папку зелiбобы
 export PATH="$PATH:/home/USERNAME/.local/bin/zeliboba"
 ```
+Не забудь заменить тут USERNAME на своё имя в линуксе, а то по пизде пойдёт зелiбоба
 
 3. Ctrl + O, Enter, Ctrl + X
 4. Если ты солидный человек, и сидишь на bash, пиши в этот раз эти буковы:
@@ -142,12 +143,14 @@ nano ~/.local/share/applications/zeliboba.desktop
 [Desktop Entry]
 Name=зелiбоба
 Comment=Удалённый eboot виндо-свинок
-Exec=konsole --hold -e "zeliboba"
-Icon=/home/USERNAME/.local/bin/zeliboba/зелібоба.png
+Exec=konsole --hold -e "/home/USERNAME/.local/bin/zeliboba/pig_control.sh"
+Icon=/home/USERNAME/.local/bin/zeliboba/zelya.png
 Terminal=false
 Type=Application
 Categories=Utility;System;
 ```
+
+Не забудь заменить тут USERNAME (их тут два если что, в Exec и в Icon) на своё имя в линуксе, а то по пизде пойдёт зелiбоба.
 
 После этого вы можете пихать этот .desktop файлик хоть на рабочий стол, хоть себе в жопу, и вам никто и ничего не скажет!
 
